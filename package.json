@@ -10,7 +10,9 @@
   "author": "Juan Jose Vega",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongodb": "^3.5.7",
     "pug": "^2.0.4"
   },
   "devDependencies": {

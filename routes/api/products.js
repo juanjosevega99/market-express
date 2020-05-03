@@ -38,11 +38,11 @@ router.post("/", function (req, res) {
   const { body: product } = req;
 
   try {
-    const product = productsService.createProduct({ product })
+    const createdProduct = productsService.createProduct({ product })
 
     res.status(201).json({
-      data: product,
-      message: "product listed",
+      data: createdProduct,
+      message: "product created",
     });
   } catch (error) {
     next(error)
