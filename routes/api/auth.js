@@ -1,6 +1,6 @@
 const express = require("express");
 const passport = require("passport");
-const boom = require("boom");
+const boom = require("@hapi/boom");
 const jwt = require("jsonwebtoken");
 const api = express.Router();
 
